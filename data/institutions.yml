@@ -1,0 +1,14 @@
+institutions:
+  - id: asean
+    code: ASEAN
+    name: ASEAN
+    countries:
+      - ru
+      - it
+  - id: asean2
+    code: ASEAN2
+    name: ASEAN2
+    countries:
+      - ru
+      - it
+      - es
