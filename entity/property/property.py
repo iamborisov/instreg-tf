@@ -3,12 +3,20 @@
 
 from __future__ import absolute_import
 
+from abc import ABCMeta, abstractmethod, abstractproperty
+
 
 class Property(object):
-    id = None
-    code = None
-    name = None
-    countries = None
+    __metaclass__ = ABCMeta
 
-    def __init__(self):
-        pass
+    id = None
+    name = None
+    default = None
+
+    @abstractmethod
+    def normalize(self, value):
+        """Normalize"""
+
+    @abstractmethod
+    def denormalize(self, value):
+        """Denormalize"""

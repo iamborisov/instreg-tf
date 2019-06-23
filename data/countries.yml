@@ -2,9 +2,11 @@ countries:
   - id: ru
     code: RU
     name: Russia
+
   - id: it
     code: IT
     name: Italy
+
   - id: es
     code: ES
     name: Espania

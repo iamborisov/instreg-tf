@@ -1,5 +1,10 @@
 properties:
   - id: hegemony
     name: Hegemony
+    type: bool
+    default: false
+
   - id: commitment
     name: Commitment
+    type: float32
+    default: 0.0

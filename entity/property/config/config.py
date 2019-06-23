@@ -14,3 +14,4 @@ class PropertyConfig(Config):
         for property in self.properties:
             assert 'id' in property.keys()
             assert 'name' in property.keys()
+            assert 'type' in property.keys()

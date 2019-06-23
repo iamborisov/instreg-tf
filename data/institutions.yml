@@ -5,6 +5,7 @@ institutions:
     countries:
       - ru
       - it
+
   - id: asean2
     code: ASEAN2
     name: ASEAN2
